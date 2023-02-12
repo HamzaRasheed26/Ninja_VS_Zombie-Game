@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0AF4BD9F-FE2D-4FC0-9FC5-FCCB0C47B505}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NinjaVsZombie</RootNamespace>
+    <AssemblyName>NinjaVsZombie</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EZInput, Version=1.3.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EZInput.1.3.2\lib\netstandard2.0\EZInput.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGame.Designer.cs">
+      <DependentUpon>FrmGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGameEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGameEnd.Designer.cs">
+      <DependentUpon>FrmGameEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmGame.resx">
+      <DependentUpon>FrmGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGameEnd.resx">
+      <DependentUpon>FrmGameEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Brick_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Brick_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ninja Character\Idle_Left.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ground_08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Collectable Object\Chest_02_Unlocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platformer\Ladder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ninja Character\Idle_Right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie1_Attacking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie1_Walking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie2_Attacking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie2_AttackingLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie2_Walking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie2_WalkingLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie3_Attacking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie3_AttackingLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie3_Walking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie3_WalkingLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie1_WalkingRight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie2_AttackingRight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie2_WalkingRight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie3_AttackingRight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombies\Zombie3_WalkingRight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ninja Character\Kunai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ninja Character\KunaiLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ninja Character\KunaiRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Collectable Object\Bubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Collectable Object\EnemyFire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Collectable Object\Chest_02_Locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gameover_generated.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WinImg3.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

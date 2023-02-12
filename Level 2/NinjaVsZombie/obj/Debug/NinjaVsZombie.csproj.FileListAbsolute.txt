@@ -1,0 +1,17 @@
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\bin\Debug\NinjaVsZombie.exe.config
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\bin\Debug\NinjaVsZombie.exe
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\bin\Debug\NinjaVsZombie.pdb
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.csproj.AssemblyReference.cache
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.csproj.SuggestedBindingRedirects.cache
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.Properties.Resources.resources
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.csproj.GenerateResource.cache
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.csproj.CoreCompileInputs.cache
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.exe
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.pdb
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\bin\Debug\GameFrameWork.dll
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\bin\Debug\EZInput.dll
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\bin\Debug\GameFrameWork.pdb
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\bin\Debug\EZInput.xml
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.csproj.CopyComplete
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.FrmGame.resources
+D:\BS CS\SEMESTER 02\Projects\FrameWorkProjectGame\Game\NinjaVsZombie\obj\Debug\NinjaVsZombie.FrmGameEnd.resources
